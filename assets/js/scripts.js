@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const project1 = document.getElementById('project1');
 project1.addEventListener('click', () => {
-    window.location.href = "projects/project1.html";
+    window.location.href = "projects/counter/counter.html";
 });
 const project2 = document.getElementById('project2');
 project2.addEventListener('click', () => {
-    window.location.href = "projects/project2.html";
+    window.location.href = "projects/moving box/moving-box.html";
 });
