@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ken Marco Manuel - Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="hero">
-            <h1 id = "Ken">Ken Marco Manuel</h1>
-            <p id="typing-text"></p>
-        </div>
+
+    <section class="hero">
         <nav>
             <a href="#" onclick="showSection('about')">About Me</a>
             <a href="#" onclick="showSection('projects')">Projects</a>
         </nav>
-        
-    </header>
-    <main class="container">
-        <div id="about">
-            <section class="portfolio-item">
-                <h2>About Me</h2>
-                <p>Hi, I'm Ken Marco Manuel, a passionate web and mobile developer with a keen interest in IT. I'm currently studying at NU-Dasma, where I'm dedicated to learning and growing in the field of technology. I love exploring new technologies and applying them to solve real-world problems. My goal is to continuously improve my skills and contribute to innovative projects that make a difference.</p>
-            </section>
+        <div>
+            <h1 id="Ken">Ken Marco Manuel</h1>
+            <p id="typing-text"></p>
         </div>
-        <div id="projects" style="display:none;">
-            <section class="portfolio-item">
-                <h2>Project 1</h2>
-                <p>Description of your project goes here.</p>
-                <button class="action-btn" id="project1">Learn More</button>
-            </section>
+    </section>
 
-            <section class="portfolio-item">
-                <h2>Project 2</h2>
+    <div class="container about">
+        <section id="about">
+            <div class="item">
+                <h2>About Me</h2>
+                <p>Hi, I'm Ken Marco Manuel, a passionate web and mobile developer with a keen interest in IT. I'm
+                    currently studying at NU-Dasma, where I'm dedicated to learning and growing in the field of
+                    technology. I love exploring new technologies and applying them to solve real-world problems. My
+                    goal is to continuously improve my skills and contribute to innovative projects that make a
+                    difference.</p>
+            </div>
+        </section>
+    </div>
+    <div class="container projects">
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="item">
+                <h2>Project: Number Counter</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quisquam laudantium odit fugit
+                    nihil consequatur odio voluptates commodi fugiat, deleniti, tempora veritatis enim officia,
+                    excepturi consequuntur dolores. Modi, qui amet.</p>
+                <button class="action-btn" id="project1">Learn More</button>
+            </div>
+
+            <div class="item">
+                <h2>Project: Moving Box</h2>
                 <p>Description of your project goes here.</p>
                 <button class="action-btn" id="project2">Learn More</button>
-            </section>
-        </div>
-    </main>
+            </div>
+            <div class="item">
+                <h2>Project: Weather App</h2>
+                <p>Description of your project goes here.</p>
+                <button class="action-btn" id="project3">Learn More</button>
+            </div>
+        </section>
+    </div>
+
     <footer>
         <p>&copy; 2025 Ken Marco Manuel. All rights reserved.</p>
         <div class="social-icons">
-            <a href="https://www.facebook.com/ken.marco.795696"><img src="assets/images/facebook_icon.png" alt="Facebook"></a>
+            <a href="https://www.facebook.com/ken.marco.795696"><img src="assets/images/facebook_icon.png"
+                    alt="Facebook"></a>
             <a href="https://github.com/Hikari-20"><img src="assets/images/Github_icon.png" alt="Github"></a>
-            <a href="https://www.linkedin.com/in/ken-marco-manuel-674a282b0/"><img src="assets/images/LinkedIn_icon.png" alt="LinkedIn"></a>
+            <a href="https://www.linkedin.com/in/ken-marco-manuel-674a282b0/"><img src="assets/images/LinkedIn_icon.png"
+                    alt="LinkedIn"></a>
         </div>
     </footer>
-    <script src="assets/js/scripts.js"></script>
 </body>
+<script src="assets/js/scripts.js"></script>
+
 </html>
