@@ -10,10 +10,11 @@
 
 <body>
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <nav>
-            <a href="#" onclick="showSection('about')">About Me</a>
-            <a href="#" onclick="showSection('projects')">Projects</a>
+            <a href="#hero">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#projects-me">Projects</a>
         </nav>
         <div>
             <h1 id="Ken">Ken Marco Manuel</h1>
@@ -21,7 +22,7 @@
         </div>
     </section>
 
-    <div class="container about">
+    <div class="container about" id="about-me">
         <section id="about">
             <div class="item">
                 <h2>About Me</h2>
@@ -33,25 +34,24 @@
             </div>
         </section>
     </div>
-    <div class="container projects">
+    <div class="container projects" id="projects-me">
         <section id="projects">
             <h1>Projects</h1>
             <div class="item">
                 <h2>Project: Number Counter</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quisquam laudantium odit fugit
-                    nihil consequatur odio voluptates commodi fugiat, deleniti, tempora veritatis enim officia,
-                    excepturi consequuntur dolores. Modi, qui amet.</p>
+                <p>Number Counter is a simple interactive project that allows users to increment, decrement, or reset a displayed number using on-screen buttons. This project demonstrates the basics of event handling and dynamic content updating. It’s a great beginner project for understanding how user input can manipulate data in real-time and how changes are reflected in the user interface.
+                </p>
                 <button class="action-btn" id="project1">Learn More</button>
             </div>
 
             <div class="item">
                 <h2>Project: Moving Box</h2>
-                <p>Description of your project goes here.</p>
+                <p>Moving Box is a basic interactive project that demonstrates user-controlled movement using keyboard inputs. The application features a box displayed on the screen that only moves when the arrow keys are pressed. Each arrow key moves the box in the corresponding direction—up, down, left, or right—providing a visual representation of real-time keyboard interaction. This project highlights fundamental concepts of event handling and DOM manipulation (or canvas movement, depending on your setup), making it a great learning tool for beginners in programming or web development.</p>
                 <button class="action-btn" id="project2">Learn More</button>
             </div>
             <div class="item">
                 <h2>Project: Weather App</h2>
-                <p>Description of your project goes here.</p>
+                <p>Weather App is a user-friendly application that provides real-time weather updates for any city or location. By entering a city name, users can view current weather conditions including temperature, humidity, wind speed, and weather descriptions. The app fetches data from a weather API and dynamically updates the interface with relevant weather information and icons. This project showcases API integration, asynchronous data fetching, and responsive UI design, making it a solid example of modern web or mobile development skills.</p>
                 <button class="action-btn" id="project3">Learn More</button>
             </div>
         </section>
