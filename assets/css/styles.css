@@ -84,12 +84,12 @@ nav {
 
 nav a {
   color: white;
-  width: 100%;
+  width: 120%;
   text-decoration: none;
-  margin: 0 20px;
   font-size: 1.2rem;
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 10px 0;
+  margin: 0 10px;
   border-radius: 20px;
   transition: background 0.3s ease-in-out;
 }
@@ -120,14 +120,13 @@ nav a:hover {
   background: linear-gradient(135deg, #2675ff, #2a5298);
   color: white;
   display: flex;
+  text-align: justify;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
 }
 .about{
     padding: 50px;
-    margin: 20px;
 }
 
 .projects {
@@ -137,8 +136,14 @@ nav a:hover {
 }
 
 #projects .item {
+  display: flex;
+  min-height: 20vh;
+  justify-content: center;
+  align-items: left;
+  text-align: justify;
+  flex-direction: column;
   background: white;
-  margin: 20px;
+  margin: 30px 0;
 }
 #projects h1 {
   text-align: center;
@@ -148,13 +153,13 @@ nav a:hover {
 }
 
 .action-btn {
-  display: inline-block;
   padding: 10px 20px;
   margin-top: 10px;
+  width: 150px;
   background: #1e3c72;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
 }
@@ -187,4 +192,37 @@ footer .social-icons a {
 footer .social-icons img {
   width: 40px;
   height: 40px;
+
+}
+
+@media (max-width: 500px) {
+  .hero{
+    font-size: 2rem;
+    min-height: 100vh;
+  }
+  #typing-text{
+    font-size: 1.5rem;
+  }
+  nav a{
+    font-size: 1rem;
+  }
+  #projects .item p, #about .item p{
+    font-size: 1rem ;
+    text-align: justify;
+    margin: 15px 0;
+    line-height: 20px;
+  }
+  #projects .item{
+    align-items: center;
+  }
+  .about, .projects{
+    padding: 15px;
+  }
+  #about .item{
+    margin: 0;
+    padding: 50px 20px;
+    
+  }
+  
+  
 }
